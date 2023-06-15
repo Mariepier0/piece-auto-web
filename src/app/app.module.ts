@@ -8,6 +8,7 @@ import { ScrollComponent } from './scroll/scroll.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModule } from './home/home.module';
 import { ServicesModule } from './services/services.module';
+import { ServicesEntreprisesModule } from './services_entreprises/services_entreprises.module';
 import { FonctionnementModule} from './fonctionnement/fonctionnement.module';
 import { ContactModule } from './contact/contact.module';
 
