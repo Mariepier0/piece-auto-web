@@ -9,8 +9,7 @@ import { ContactModule } from './contact/contact.module';
 import { AboutModule } from './about/about.module';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', loadChildren: () => HomeModule },
+  { path: '', loadChildren: () => HomeModule },
   // { path: 'login', component: LoginComponent },
   // { path: 'signup', component: SignupComponent },
   // { path: 'contactus', component: ContactusComponent, outlet: 'popup'  },
