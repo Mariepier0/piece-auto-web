@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { ScrollComponent } from './scroll/scroll.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModule } from './home/home.module';
 import { ServicesModule } from './services/services.module';
@@ -25,7 +24,6 @@ import { ContactModule } from './contact/contact.module';
     ServicesModule,
     FonctionnementModule,
     ContactModule,
-    ScrollComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
