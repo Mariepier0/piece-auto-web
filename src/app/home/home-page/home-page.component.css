@@ -5,6 +5,8 @@ a{
 
 .card{
   border-color: var(--main-color);
+  max-width: 30rem;
+
 }
 
 h1{

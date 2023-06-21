@@ -1,8 +1,9 @@
+
 :root{
-    --main-color: #7ea380;
+    --main-color: #338040;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%;}
 body { margin: 0; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif }
 
 h1{
