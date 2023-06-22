@@ -11,7 +11,7 @@ h1{
 }
 
 .table {
-    --bs-table-striped-bg: #e4f0e8;
+    --bs-table-striped-bg: #d8e8db;
   }
 
 td{
@@ -26,3 +26,9 @@ td{
 #bordure-table{
     border-right: 0px !important;
 }
+
+a{
+    color: black;
+    font-weight: bold;
+  }
+
