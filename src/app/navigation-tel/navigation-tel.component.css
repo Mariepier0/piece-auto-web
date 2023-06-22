@@ -1,0 +1,9 @@
+.navbar{
+    background-color: #f5fff8;
+}
+
+@media only screen and (max-width: 920px) {
+  .navbar{
+      display: none;
+  }
+}

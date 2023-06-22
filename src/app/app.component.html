@@ -5,10 +5,13 @@
   <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
 </div>
 
+
 <main id="content">        
+  <app-navigation-tel></app-navigation-tel>
   <app-navigation></app-navigation>
-  
   <router-outlet></router-outlet>
       <!-- <app-footer></app-footer> -->
-      <router-outlet name="popup"></router-outlet>
+  <router-outlet name="popup"></router-outlet>
+  <app-footer></app-footer>
 </main>
+

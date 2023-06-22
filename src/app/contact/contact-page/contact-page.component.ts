@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-fonctionnement',
+  selector: 'app-contact',
   templateUrl: './contact-page.component.html',
   styleUrls: ['./contact-page.component.css']
 })

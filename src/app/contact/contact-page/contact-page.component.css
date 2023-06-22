@@ -5,3 +5,18 @@
 nav{
   margin-top : 40px;
 }
+
+p{
+  text-align: left;
+}
+
+@media only screen and (max-width: 920px) {
+  #map{
+    width: auto;
+    height: 350px;
+    justify-content: center;
+  }
+  h1{
+    text-align: left;
+  }
+}

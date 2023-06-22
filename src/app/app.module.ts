@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavigationTelComponent } from './navigation-tel/navigation-tel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModule } from './home/home.module';
 import { ConteneursModule } from './conteneurs/conteneurs.module';
@@ -16,7 +17,9 @@ import { ContactModule } from './contact/contact.module';
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
+    NavigationComponent,
+    NavigationTelComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -27,8 +30,7 @@ import { ContactModule } from './contact/contact.module';
     ConteneursModule,
     FonctionnementModule,
     ContactModule,
-    BrowserAnimationsModule,
-    ToastrModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

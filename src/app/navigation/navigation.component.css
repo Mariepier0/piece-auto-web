@@ -1,6 +1,39 @@
 
 .nav-link {
     color: white !important;
-    font-size: larger;
-    font-weight: 400;
+
+  }
+
+  @media only screen and (max-width: 920px) {
+    #tel-item{
+        display: flex;
+    }
+
+    #item-border{
+      border-bottom: 1px #b4b8b5 solid;
+    }
+
+    .navbar-nav .dropdown-menu{
+      background-color: var(--main-color);
+      border: 0px;
+
+    }
+
+    .dropdown-item{
+      color: white !important;
+    }
+
+  }
+
+  @media only screen and (min-width: 920px) {
+    #tel-item{
+        display: none;
+    }
+
+    .navbar-nav .dropdown-menu{
+      border-color: var(--main-color);
+      color: var(--main-color) !important;
+
+    }
+    
   }
